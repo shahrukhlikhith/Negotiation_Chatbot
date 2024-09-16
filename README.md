@@ -28,6 +28,9 @@ Initiates the negotiation process and provides the listed price for the product.
 - **Request**:
   ```bash
   GET /start
+  
+- **Response**:
+  ```json
   {
     "message": "Negotiation started!",
     "price": 100
