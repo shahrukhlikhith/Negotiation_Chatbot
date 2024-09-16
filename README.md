@@ -63,9 +63,6 @@ The chatbot uses OpenAI's GPT model to handle conversational logic. Here's how i
 The model is integrated into the code using OpenAI's Python SDK, which allows for easy interaction with their GPT models.
 
 ## Setup Instructions
-To set up and run the negotiation chatbot API locally, follow these steps:
-
-## Setup Instructions
 
 To set up and run the negotiation chatbot API locally, follow these steps:
 
