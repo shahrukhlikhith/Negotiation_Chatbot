@@ -35,7 +35,7 @@ Initiates the negotiation process and provides the listed price for the product.
     "message": "Negotiation started!",
     "price": 100
   }
-### 1. `/offer` (POST)
+### 2. `/offer` (POST)
 Handles the user's offer and returns the chatbot's response, either accepting, rejecting, or making a counteroffer.
 
 - **Request:**
