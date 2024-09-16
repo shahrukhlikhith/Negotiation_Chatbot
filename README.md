@@ -58,6 +58,8 @@ The chatbot uses OpenAI's GPT model to handle conversational logic. Here's how i
 1. A user sends an offer via the `/offer` endpoint.
 2. The chatbot processes the offer and uses the OpenAI GPT API to generate a negotiation response.
 3. The response is returned to the user, either accepting the offer, proposing a counteroffer, or rejecting it.
+
+
 The model is integrated into the code using OpenAI's Python SDK, which allows for easy interaction with their GPT models.
 
 ## Setup Instructions
