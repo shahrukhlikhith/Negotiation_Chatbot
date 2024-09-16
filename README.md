@@ -72,8 +72,9 @@ To set up and run the negotiation chatbot API locally, follow these steps:
    cd negotiation-chatbot
 2. **Create a virtual environment (optional):**:
    ```bash
-   git clone <your-repo-url>
-   cd negotiation-chatbot
+   python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 3. **Install dependencies:**:
    ```bash
    pip install -r requirements.txt
