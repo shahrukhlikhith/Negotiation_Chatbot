@@ -97,7 +97,7 @@ To set up and run the negotiation chatbot API locally, follow these steps:
 
    
 ## Demo
-You can follow this example to test the negotiation process:
+You can follow this to test the negotiation process:
 
 1. **Start Negotiation:** Call the `/start` endpoint to initiate the negotiation and get the listed price of the product.
 
