@@ -35,3 +35,37 @@ Initiates the negotiation process and provides the listed price for the product.
     "message": "Negotiation started!",
     "price": 100
   }
+### 1. `/offer` (POST)
+Handles the user's offer and returns the chatbot's response, either accepting, rejecting, or making a counteroffer.
+
+- **Request:**
+
+  ```bash
+  POST /offer
+  Content-Type: application/json
+  Body: {"offer": "I'd like to buy it for $80"}
+- **Response:**
+
+  ```json
+  {
+    "message": "I can offer the product for $85.0. Do we have a deal?",
+    "price": 85.0
+  }
+
+## OpenAI Integration
+The chatbot uses OpenAI's GPT model to handle conversational logic. Here's how it works:
+
+1. A user sends an offer via the /offer endpoint.
+2. The chatbot processes the offer and uses the OpenAI GPT API to generate a negotiation response.
+3. The response is returned to the user, either accepting the offer, proposing a counteroffer, or rejecting it.
+The model is integrated into the code using OpenAI's Python SDK, which allows for easy interaction with their GPT models.
+
+## Setup Instructions
+To set up and run the negotiation chatbot API locally, follow these steps:
+
+**1. Clone the repository:**
+
+  ```bash
+
+    git clone <your-repo-url>
+    cd negotiation-chatbot
